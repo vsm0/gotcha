@@ -35,26 +35,26 @@ go test -v ./test/[test].go
 
 The following features are implemented or planned:
 
-    + [x] Create schema (e.g. on first run)
+- [x] Create schema (e.g. on first run)
 
-	+ [x] Create user accounts
-	+ [ ] Delete user accounts
-	+ [ ] Update user accounts (e.g. changing password or other details)
-	+ [ ] Query user accounts
+- [x] Create user accounts
+- [ ] Delete user accounts
+- [ ] Update user accounts (e.g. changing password or other details)
+- [ ] Query user accounts
 
-	+ [ ] Create global items
-	+ [ ] Delete global items (e.g. on system update)
-	+ [ ] Query global items
+- [ ] Create global items
+- [ ] Delete global items (e.g. on system update)
+- [ ] Query global items
 
-	+ [x] Create user inventory items
-	+ [ ] Delete user inventory items
-	+ [ ] Update user inventory items (e.g. when item count changes)
-	+ [ ] Query user inventory items
+- [x] Create user inventory items
+- [ ] Delete user inventory items
+- [ ] Update user inventory items (e.g. when item count changes)
+- [ ] Query user inventory items
 
-	+ [x] Create events
-	+ [ ] Delete events
-	+ [ ] Query events
+- [x] Create events
+- [ ] Delete events
+- [ ] Query events
 
-	+ [x] Create event rewards
-	+ [ ] Delete event rewards
-	+ [ ] Query event rewards
+- [x] Create event rewards
+- [ ] Delete event rewards
+- [ ] Query event rewards
