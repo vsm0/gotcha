@@ -26,9 +26,10 @@ func NewApp(db *gorm.DB) *App {
 	}
 }
 
-func (a *App) Run() (tea.Model, error) {
+func (a *App) Run() error {
 	p := tea.NewProgram(a, tea.WithAltScreen())
-	return p.Run()
+	_, err := p.Run()
+	return err
 }
 
 func (a *App) Init() tea.Cmd {

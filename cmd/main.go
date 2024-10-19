@@ -34,7 +34,7 @@ func main() {
 		log.Fatalf("Failed to migrate: %v", err)
 	}
 
-	if _, err := state.NewApp(db).Run(); err != nil {
+	if err := state.NewApp(db).Run(); err != nil {
 		panic(err)
 	}
 }
