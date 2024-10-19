@@ -38,9 +38,9 @@ The following features are implemented or planned:
 - [x] Create schema (e.g. on first run)
 
 - [x] Create user accounts
-- [ ] Delete user accounts
-- [ ] Update user accounts (e.g. changing password or other details)
-- [ ] Query user accounts
+- [x] Delete user accounts
+- [x] Update user accounts (e.g. changing password or other details)
+- [x] Query user accounts
 
 - [ ] Create global items
 - [ ] Delete global items (e.g. on system update)
