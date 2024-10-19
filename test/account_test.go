@@ -4,6 +4,8 @@ import (
 	"github.com/vsm0/gotcha/model"
 
 	"testing"
+
+	"gorm.io/gorm"
 )
 
 func TestCreateAccount(t *testing.T) {
@@ -88,7 +90,18 @@ func TestDeleteAccount(t *testing.T) {
 
 	t.Logf("Found account: %s", a.Username)
 
-	if res := db.Delete(a); res.Error != nil {
-		t.Fatalf("%v", res.Error)
+	// transaction to delete all related data
+	// ie inventory
+	err := db.Transaction(func(db *gorm.DB) error {
+		res := db.Delete(&model.InventoryItem{}, "account_id LIKE ?", a.Id)
+		if res.Error != nil {
+			return res.Error
+		}
+
+		res = db.Delete(a)
+		return res.Error
+	})
+	if err != nil {
+		t.Fatalf("%v", err)
 	}
 }
