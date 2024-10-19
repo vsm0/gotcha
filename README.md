@@ -36,6 +36,7 @@ go test -v ./test/[test].go
 The following features are implemented or planned:
 
 - [x] Create schema (e.g. on first run)
+- [x] Delete schema
 
 - [x] Create user accounts
 - [x] Delete user accounts
