@@ -17,7 +17,7 @@ func NewLogin(s *Stack, db *Db) *Login {
 }
 
 func (s *Login) Init() tea.Cmd {
-	return nil
+	return tea.SetWindowTitle("Account Page")
 }
 
 func (s *Login) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
