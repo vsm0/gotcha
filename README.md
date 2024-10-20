@@ -26,10 +26,6 @@ A Go + SQLite base for a gacha centered system, providing fundamental models (ta
 ```bash
 go test -v ./test
 ```
-* Run a specific test:
-```bash
-go test -v ./test/[test].go
-```
 
 ### Features in Tests
 
