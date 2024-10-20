@@ -39,14 +39,14 @@ The following features are implemented or planned:
 - [x] Update user accounts (e.g. changing password or other details)
 - [x] Query user accounts
 
-- [ ] Create global items
-- [ ] Delete global items (e.g. on system update)
-- [ ] Query global items
+- [x] Create global items
+- [x] Delete global items (e.g. on system update)
+- [x] Query global items
 
 - [x] Create user inventory items
-- [ ] Delete user inventory items
-- [ ] Update user inventory items (e.g. when item count changes)
-- [ ] Query user inventory items
+- [x] Delete user inventory items
+- [x] Update user inventory items (e.g. when item count changes)
+- [x] Query user inventory items
 
 - [x] Create events
 - [ ] Delete events
