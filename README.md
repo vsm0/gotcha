@@ -49,9 +49,9 @@ The following features are implemented or planned:
 - [x] Query user inventory items
 
 - [x] Create events
-- [ ] Delete events
-- [ ] Query events
+- [x] Delete events
+- [x] Query events
 
 - [x] Create event rewards
-- [ ] Delete event rewards
-- [ ] Query event rewards
+- [x] Delete event rewards
+- [x] Query event rewards
